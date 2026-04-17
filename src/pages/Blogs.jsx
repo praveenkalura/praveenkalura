@@ -9,11 +9,11 @@ export default function Blogs() {
     <div className="min-h-screen bg-gray-50">
       <SiteHeader />
 
-      <main className="px-6 pt-28 pb-20 lg:px-8">
+      <main className="px-4 pt-24 pb-16 sm:px-6 sm:pt-28 lg:px-8 lg:pb-20">
         <div className="mx-auto max-w-7xl">
           <div className="mb-12 max-w-3xl">
-            <h1 className="text-4xl font-bold text-gray-900">Blogs</h1>
-            <p className="mt-4 text-lg leading-8 text-gray-600">
+            <h1 className="text-3xl font-bold text-gray-900 sm:text-4xl">Blogs</h1>
+            <p className="mt-4 text-base leading-7 text-gray-600 sm:text-lg sm:leading-8">
               Medium posts from Praveen Kalura on water resources, remote sensing, sustainability, and technology.
             </p>
           </div>
@@ -25,7 +25,7 @@ export default function Blogs() {
                   <div className="h-52 overflow-hidden bg-teal-50">
                     <img src={post.thumbnail} alt={post.title} className="h-full w-full object-cover transition-transform duration-300 hover:scale-105" />
                   </div>
-                  <CardContent className="p-6">
+                  <CardContent className="p-5 sm:p-6">
                     <div className="mb-4 flex flex-wrap items-center gap-2">
                       <Badge variant="outline" className="border-teal-300 text-teal-700">
                         {post.category}

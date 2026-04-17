@@ -1,7 +1,9 @@
 import { useEffect, useState } from "react";
 import "./App.css";
+import Background from "./pages/Education.jsx";
 import Blogs from "./pages/Blogs.jsx";
 import Contact from "./pages/Contact.jsx";
+import Events from "./pages/Events.jsx";
 import MaintenancePage from "./pages/MaintenancePage.jsx";
 import Portfolio from "./pages/Portfolio.jsx";
 import Projects from "./pages/Projects.jsx";
@@ -19,6 +21,10 @@ function getRoute() {
 
   if (hash === "#/blogs" || hash === "#blogs") {
     return "blogs";
+  }
+
+  if (hash === "#/background" || hash === "#background" || hash === "#/education" || hash === "#education") {
+    return "background";
   }
 
   if (hash === "#/apps" || hash === "#apps" || hash === "#/resources" || hash === "#resources") {
@@ -52,11 +58,12 @@ export default function App() {
 
   return (
     <div className="App">
+      {route === "background" ? <Background /> : null}
       {route === "publications" ? <Publications /> : null}
       {route === "projects" ? <Projects /> : null}
       {route === "blogs" ? <Blogs /> : null}
       {route === "apps" ? <MaintenancePage title="Apps" /> : null}
-      {route === "events" ? <MaintenancePage title="Events" /> : null}
+      {route === "events" ? <Events /> : null}
       {route === "gallery" ? <MaintenancePage title="Gallery" /> : null}
       {route === "contact" ? <Contact /> : null}
       {route === "home" ? <Portfolio /> : null}

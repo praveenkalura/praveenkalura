@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 338 322" role="img" aria-labelledby="title desc">
+  <title id="title">AGU Chapman Conference Honolulu 2024</title>
+  <desc id="desc">Square AGU Chapman Conference graphic for the Remote Sensing of the Water Cycle event.</desc>
+  <rect width="338" height="322" fill="#ffffff"/>
+
+  <g transform="translate(52 92)">
+    <g fill="#111111">
+      <path d="M0 28C0 10 12 0 32 0h23v11H32c-8 0-14 5-17 12h40v11H15c2 8 8 13 17 13h23v11H32C12 58 0 47 0 28z"/>
+      <path d="M64 0h11v47h29v11H64V0z"/>
+      <path d="M107 28c0-18 12-28 30-28h20v11h-20c-11 0-18 7-18 17s7 18 18 18h20V29h-18v-10h29v39h-31c-18 0-30-11-30-30z"/>
+    </g>
+
+    <g fill="#79a843">
+      <path d="M161 4h67v13h-50v16h42v12h-42v17h50v13h-67V4z"/>
+      <path d="M161 42h67v13h-50v16h42v12h-42v17h50v13h-67V42z" opacity="0"/>
+    </g>
+
+    <g fill="#79a843" font-family="Arial, Helvetica, sans-serif" font-weight="700">
+      <text x="161" y="22" font-size="20">CHAPMAN</text>
+      <text x="161" y="44" font-size="20">CONFERENCE</text>
+    </g>
+
+    <g fill="#222222" font-family="Arial, Helvetica, sans-serif" font-weight="700">
+      <text x="0" y="78" font-size="8">Honolulu, HI, USA | 13-16 February 2024</text>
+    </g>
+
+    <rect x="0" y="86" width="228" height="2" fill="#4a4a4a"/>
+
+    <g fill="#6f9f3e" font-family="Arial, Helvetica, sans-serif" font-weight="700">
+      <text x="0" y="104" font-size="9">Remote Sensing of the Water Cycle</text>
+    </g>
+  </g>
+</svg>

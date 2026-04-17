@@ -8,10 +8,10 @@ export default function Publications() {
     <div className="min-h-screen bg-gray-50">
       <SiteHeader />
 
-      <main className="px-6 pt-28 pb-20 lg:px-8">
+      <main className="px-4 pt-24 pb-16 sm:px-6 sm:pt-28 lg:px-8 lg:pb-20">
         <div className="mx-auto max-w-7xl">
           <div className="mb-12 max-w-3xl">
-            <h1 className="text-4xl font-bold text-gray-900">Publications</h1>
+            <h1 className="text-3xl font-bold text-gray-900 sm:text-4xl">Publications</h1>
             <div className="mt-6 flex flex-wrap gap-3">
               <a href="https://scholar.google.com/citations?user=iie9NUUAAAAJ&hl=en" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-md bg-white px-4 py-2 text-sm font-semibold text-gray-900 shadow-sm transition-colors hover:bg-gray-100">
                 <img src="https://scholar.google.com/favicon.ico" alt="" className="h-5 w-5" />
@@ -35,12 +35,12 @@ export default function Publications() {
           <div className="space-y-6">
             {publications.map((pub) => (
               <Card key={pub.id} className="overflow-hidden border-0 shadow-md hover:shadow-lg transition-all">
-                <CardContent className="grid gap-6 p-6 md:grid-cols-[11rem_1fr]">
+                <CardContent className="grid gap-6 p-5 sm:p-6 md:grid-cols-[11rem_1fr]">
                   <div className="flex h-44 items-center justify-center overflow-hidden rounded-lg bg-white p-3">
                     <img src={pub.thumbnail} alt={`${pub.title} thumbnail`} className="max-h-full max-w-full object-contain" />
                   </div>
                   <div>
-                    <div className="flex justify-between items-start mb-3">
+                    <div className="mb-3 flex flex-col items-start gap-2 sm:flex-row sm:justify-between">
                       <Badge variant="outline" className="text-gray-700 border-gray-300">
                         {pub.year}
                       </Badge>
