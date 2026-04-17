@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import "./App.css";
+import Apps from "./pages/Apps.jsx";
 import Background from "./pages/Education.jsx";
 import Blogs from "./pages/Blogs.jsx";
 import Contact from "./pages/Contact.jsx";
@@ -62,7 +63,7 @@ export default function App() {
       {route === "publications" ? <Publications /> : null}
       {route === "projects" ? <Projects /> : null}
       {route === "blogs" ? <Blogs /> : null}
-      {route === "apps" ? <MaintenancePage title="Apps" /> : null}
+      {route === "apps" ? <Apps /> : null}
       {route === "events" ? <Events /> : null}
       {route === "gallery" ? <MaintenancePage title="Gallery" /> : null}
       {route === "contact" ? <Contact /> : null}
