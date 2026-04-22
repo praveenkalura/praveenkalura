@@ -1,6 +1,6 @@
 # praveenkalura
 
-Personal website of Dr. Praveen Kalura.
+Personal website of Praveen Kalura (PHD).
 
 This repository is a Vite + React site deployed to GitHub Pages. The editable source lives in `src/`, and GitHub Actions generates the production build from that source.
 
